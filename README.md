@@ -7,17 +7,17 @@ Thanks to the PIDNet !:kissing_heart::kissing_heart::kissing_heart:
 
 # :yellow_heart:What's new?
 In the official version, we have made the following changes:
-1. Adjusted the number of GPUs for training to one, and handled some Bugs!!
-2. Add <tools/FLOPS_demo.py>, which is easy for getting Flops and params!!
-3. Add some useful demos!!!
-4. Made a cheat sheet to facilitate a quick start!!!
+1. :boom:Adjusted the number of GPUs for training to one, and handled some Bugs!!
+2. :boom:Add <tools/FLOPS_demo.py>, which is easy for getting Flops and params!!
+3. :boom:Add some useful demos!!!
+4. :boom:Made a cheat sheet to facilitate a quick start!!!
 
 
 # :blue_heart:How to train PIDNet for a customed datasets.
 
 > Here, we use pidnet-small to make an example. You need to change these settings one by one:
 
-1. You need to prepare cityscapes-style image data in [data] folder as following:
+1. You need to prepare cityscapes-style image data in <data> folder as following:
     - data/cityscapes/custom_datasets/
         - gtFine    # grayscale images, e.g. containing only 0 and 255
         - images    # RBG images or some else
