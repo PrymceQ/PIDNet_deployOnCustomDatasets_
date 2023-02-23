@@ -5,7 +5,7 @@ Thanks to the PIDNet !:kissing_heart::kissing_heart::kissing_heart:
 [PIDNet Code](https://github.com/XuJiacong/PIDNet)
 
 
-# What's new?:laughing:
+# :yellow_heart:What's new?
 In the official version, we have made the following changes:
 1. Adjusted the number of GPUs for training to one, and handled some Bugs!!
 2. Add <tools/FLOPS_demo.py>, which is easy for getting Flops and params!!
@@ -13,7 +13,7 @@ In the official version, we have made the following changes:
 4. Made a cheat sheet to facilitate a quick start!!!
 
 
-# How to train PIDNet for a customed datasets.
+# :blue_heart:How to train PIDNet for a customed datasets.
 
 > Here, we use pidnet-small to make an example. You need to change these settings one by one:
 
@@ -45,8 +45,8 @@ In the official version, we have made the following changes:
 6. Your output will be saved in:
     - output/cityscapes/pidnet_small_cityscapes/
 
-# How to inference?
-1. inference
+# :green_heart:How to inference?
+1. Inference
 
 By the default setting, you need to put your images in <samples> for inference.
 
