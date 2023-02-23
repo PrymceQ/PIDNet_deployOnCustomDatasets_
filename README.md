@@ -1,16 +1,16 @@
 # PIDNet
 Thanks to the PIDNet 
-Paper: [PIDNet](https://arxiv.org/pdf/2206.02066v2.pdf)
-Code: [PIDNet](https://github.com/XuJiacong/PIDNet)
+[PIDNet Paper](https://arxiv.org/pdf/2206.02066v2.pdf)
+[PIDNet Code](https://github.com/XuJiacong/PIDNet)
 
   <img align="center" src="figs/tqdm.png" alt="overview-of-our-method" width="100%"/>
 
-How to use PIDNet for customed datasets.
+
 # What changed?
 在官方的版本上，我们做了如下改变
 1. 将训练的GPU数量调整成一个，并且处理了一些Bug
-2. FLOPS_demo.py
-3. 做了一个攻略，方便快速上手
+2. [FLOPS_demo.py]
+3. 做了一个攻略，方便快速上手How to use PIDNet for a customed datasets.
 
 
 # How to train PIDNet on custom dataset?
