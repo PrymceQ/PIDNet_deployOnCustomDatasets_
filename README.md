@@ -6,11 +6,11 @@ Thanks to the PIDNet !
 
 
 # What's new?
-In the official version, we have made the following changes
-1. Adjusted the number of GPUs for training to one, and handled some Bugs;
-2. Add //FLOPS_demo.py, which is easy for getting Flops and params;
-3. Add some useful demos!
-4. Made a cheat sheet to facilitate a quick start.
+In the official version, we have made the following changes:
+1. Adjusted the number of GPUs for training to one, and handled some Bugs!!
+2. Add <tools/FLOPS_demo.py>, which is easy for getting Flops and params!!
+3. Add some useful demos!!!
+4. Made a cheat sheet to facilitate a quick start!!!
 
 
 # How to train PIDNet for a customed datasets.
@@ -31,10 +31,11 @@ In the official version, we have made the following changes
         - self.label_mapping
         - self.class_weights
 
-4. Set necessary configs in [.yaml] file, which is in configs/cityscapes/pidnet_small_cityscapes.yaml
-    - set DATASET.TEST_SET, DATASET.TRAIN_SET and DATASET.NUM_CLASSES
-    - set TRAIN.IMAGE_SIZE, TRAIN.BASE_SIZE, TEST.IMAGE_SIZE, TEST.BASE_SIZE
-    - set TRAIN.BATCH_SIZE_PER_GPU, TRAIN.END_EPOCH if you like
+4. Set necessary configs in [.yaml] file, which is in:
+    - configs/cityscapes/pidnet_small_cityscapes.yaml
+        - set DATASET.TEST_SET, DATASET.TRAIN_SET and DATASET.NUM_CLASSES
+        - set TRAIN.IMAGE_SIZE, TRAIN.BASE_SIZE, TEST.IMAGE_SIZE, TEST.BASE_SIZE
+        - set TRAIN.BATCH_SIZE_PER_GPU, TRAIN.END_EPOCH if you like
 
 5. Train
   ````bash
@@ -47,7 +48,7 @@ In the official version, we have made the following changes
 # How to inference?
 1. inference
 
-By the default setting, you need to put your images in [samples] for inference
+By the default setting, you need to put your images in <samples> for inference
 
 > len(color_map in [inference.py]) >= the class number of your dataset is okay.
 
