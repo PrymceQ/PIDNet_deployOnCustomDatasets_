@@ -9,7 +9,8 @@ Thanks to the PIDNet !
 In the official version, we have made the following changes
 1. Adjusted the number of GPUs for training to one, and handled some Bugs;
 2. Add [FLOPS_demo.py], which is easy for getting Flops and params;
-3. Made a cheat sheet to facilitate a quick start.
+3. Add some useful demos!
+4. Made a cheat sheet to facilitate a quick start.
 
 
 # How to train PIDNet for a customed datasets.
@@ -44,12 +45,17 @@ In the official version, we have made the following changes
     - output/cityscapes/pidnet_small_cityscapes/
 
 # How to inference?
+1. inference
+
 By the default setting, you need to put your images in [samples] for inference
+
+> len(color_map in [inference.py]) >= the class number of your dataset is okay.
+
   ````bash
     cd tools
     python inference.py --c [your_dataset_class_num] --p ../output/cityscapes/pidnet_small_cityscapes/checkpoint.pth.tar
   ````
-
-len(color_map in [inference.py]) >= the class number of your dataset is okay.
+  
+2. Where's the output?
 
 The output will be saved to [samples/output/]
