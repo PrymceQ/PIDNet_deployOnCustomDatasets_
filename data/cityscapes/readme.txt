@@ -1,0 +1,1 @@
+Put the the folders of gtFine and images here!
