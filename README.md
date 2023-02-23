@@ -42,13 +42,13 @@ In the official version, we have made the following changes:
     python tools/train.py --cfg configs/cityscapes/pidnet_small_cityscapes.yaml
   ````
   
-6. Your output will be saved in
+6. Your output will be saved in:
     - output/cityscapes/pidnet_small_cityscapes/
 
 # How to inference?
 1. inference
 
-By the default setting, you need to put your images in <samples> for inference
+By the default setting, you need to put your images in <samples> for inference.
 
 > len(color_map in [inference.py]) >= the class number of your dataset is okay.
 
@@ -59,4 +59,4 @@ By the default setting, you need to put your images in <samples> for inference
   
 2. Where's the output?
 
-The output will be saved to [samples/output/]
+The output will be saved to <samples/output/>
