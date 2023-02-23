@@ -50,7 +50,7 @@ In the official version, we have made the following changes:
 
 By the default setting, you need to put your images in <samples> for inference.
 
-> len(color_map in [inference.py]) >= the class number of your dataset is okay.
+> len(color_map in <tools/inference.py>) >= the class number of your dataset is okay.
 
   ````bash
     cd tools
