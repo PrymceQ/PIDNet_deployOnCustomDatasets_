@@ -8,7 +8,7 @@ Thanks to the PIDNet !
 # What's new?
 In the official version, we have made the following changes
 1. Adjusted the number of GPUs for training to one, and handled some Bugs;
-2. Add [FLOPS_demo.py], which is easy for getting Flops and params;
+2. Add //FLOPS_demo.py, which is easy for getting Flops and params;
 3. Add some useful demos!
 4. Made a cheat sheet to facilitate a quick start.
 
