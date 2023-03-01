@@ -5,7 +5,7 @@ import json
 from collections import defaultdict
 from tqdm import tqdm
 
-# coco to cityscapes dataset form
+# coco to cityscapes dataset form (2分类任务)
 def cocojson2png(main_dir, json_path='instances_train2017.json', save_path = './gtFine'):
     if not os.path.exists(save_path):
         os.makedirs(save_path)
