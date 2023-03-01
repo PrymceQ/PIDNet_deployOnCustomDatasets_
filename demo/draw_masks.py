@@ -13,6 +13,7 @@ def draw_mask(image, mask, color, thresh):
 
     return out_image
 
+# 在原图上, 将GT_mask、Pre_mask画上去
 if __name__ == '__main__':
     # draw gt and pre masks on images
     main_dir = './'
