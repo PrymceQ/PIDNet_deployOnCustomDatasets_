@@ -57,7 +57,9 @@ class Cityscapes(BaseDataset):
 #                                        0.8786, 1.0023, 0.9539, 0.9843, 
 #                                        1.1116, 0.9037, 1.0865, 1.0955, 
 #                                        1.0865, 1.1529, 1.0507]).cuda()
-        self.label_mapping = {0:0, 255:1} # gtFine_label:new_label
+
+#       由于我们的数据集gt中只有0像素(黑)与255像素(白)的值，因此只需要转变2个
+        self.label_mapping = {0:0, 255:1} # gtFine_label:new_label. 
         self.class_weights = torch.FloatTensor([0.4, 0.6]).cuda()
         self.bd_dilate_size = bd_dilate_size
     
